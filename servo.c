@@ -17,7 +17,7 @@ void servo_init(void)
     TIM2->CCMR1 = TIM_CCMR1_OC1M_2 | TIM_CCMR1_OC1M_1 | TIM_CCMR1_OC2M_2 | TIM_CCMR1_OC2M_1;//прямой шим
     TIM2->CR1 &=~ TIM_CR1_CMS;//выравнивание по фронту, Fast PWM
     TIM2->CR1 |=  TIM_CR1_CEN;//включаем счётчик
-    }
+    } 
 
 
 //PA0 - программный инверсный шим
