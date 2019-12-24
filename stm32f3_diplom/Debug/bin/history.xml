@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -g -nostartfiles -Map=stm32f3_diplom.map -Os --gc-sections -LC:\coocox\CoIDE\configuration\ProgramData\stm32f3_diplom -TC:\coocox\CoIDE\configuration\ProgramData\stm32f3_diplom/link.ld -g -L..\..\.. -lm">
+      <target file="stm32f3_diplom.elf" lastModified="16b2ea193f3">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="16b2ea1891a"/>
+         <source file="..\obj\uart.o" lastModified="16b2ea189b1"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="16b2ea18a19"/>
+         <source file="..\obj\MadgwickAHRS.o" lastModified="16b2ea18abd"/>
+         <source file="..\obj\main.o" lastModified="16b2ea18b10"/>
+         <source file="..\obj\i2c_f3.o" lastModified="16b2ea18b91"/>
+         <source file="..\obj\parsing.o" lastModified="16b2ea18beb"/>
+         <source file="..\obj\stm32f30x_exti.o" lastModified="16b2ea18c4a"/>
+         <source file="..\obj\stm32f30x_spi.o" lastModified="16b2ea18cd8"/>
+         <source file="..\obj\stm32f30x_i2c.o" lastModified="16b2ea18d68"/>
+         <source file="..\obj\leds.o" lastModified="16b2ea18db6"/>
+         <source file="..\obj\servo.o" lastModified="16b2ea18e08"/>
+         <source file="..\obj\mpu6050.o" lastModified="16b2ea18e9a"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="16b2ea18ef9"/>
+         <source file="..\obj\EERTOS_f3.o" lastModified="16b2ea18f60"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="16b2ea18fb7"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="16b2ea18fed"/>
+         <source file="..\obj\stm32f30x_syscfg.o" lastModified="16b2ea1904a"/>
+         <source file="..\obj\robo.o" lastModified="16b2ea190b7"/>
+         <source file="..\obj\stm32f30x_usart.o" lastModified="16b2ea19158"/>
+         <source file="..\obj\spi_f3.o" lastModified="16b2ea191b1"/>
+      </target>
+   </processor>
+</history>
